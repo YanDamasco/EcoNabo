@@ -1,0 +1,13 @@
+footer{
+    
+    padding: 50px ;
+    background-color: var(--cor_fundo);
+}
+
+.footer_copy{
+    width: 100%;
+    padding: 30px 0px;
+    color: var(--cor_secundaria_50);
+    font-size: 20px;
+    text-align: center;
+}

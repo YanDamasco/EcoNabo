@@ -1,0 +1,59 @@
+header{
+    width: 100%;
+    height: 10vh;
+    font-family: 'Pixelify Sans';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--cor_fundo);
+    position: fixed;
+    border-bottom: solid 1.5px #fff; 
+    z-index: 3;
+}
+
+.header_h1{
+    display: flex;
+}
+
+.header_ilustracao{
+    display: flex;
+    padding: 15px;
+    margin-bottom: -28px;
+}
+
+.header_logo h1{
+    color: var(--cor_primaria);
+    margin-top: -7px;
+    display: flex;
+}
+
+.header_nabo{
+    position: absolute;
+    display: flex;
+    position: fixed;
+    margin-right: 680px;
+}
+
+.header_slime{
+    display: flex;
+    position: absolute;
+    margin-left: 40px;
+}
+
+.header_logo span{
+    color: var(--cor_terra);
+}
+
+.header_link a{
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 48px;
+}
+
+.header_link a:hover{
+    color: var(--cor_primaria);
+    font-size: 26px;
+    font-weight: 800;
+    transform: scale(1.2);
+}

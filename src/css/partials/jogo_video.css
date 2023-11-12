@@ -1,0 +1,15 @@
+#jogo_video{
+    width: 100%;
+    height: 800px;
+    background-color: var(--cor_fundo);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.video_jogo{
+    width: 800px;
+    border-radius: 15px;
+    border: solid 15px var(--cor_primaria);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
